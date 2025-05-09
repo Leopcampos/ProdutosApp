@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens da Solução", "Itens
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutosApp.Infra.Data", "ProdutosApp.Infra.Data\ProdutosApp.Infra.Data.csproj", "{54B33371-15BE-4105-8860-2907BFBE7040}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{C26A6CEA-5DBF-4BDB-8D9B-5B2D0DC0AFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C26A6CEA-5DBF-4BDB-8D9B-5B2D0DC0AFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C26A6CEA-5DBF-4BDB-8D9B-5B2D0DC0AFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B33371-15BE-4105-8860-2907BFBE7040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B33371-15BE-4105-8860-2907BFBE7040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B33371-15BE-4105-8860-2907BFBE7040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B33371-15BE-4105-8860-2907BFBE7040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +47,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{42283B43-0FDB-4FDF-B186-2DD4C0E874F5} = {8E6AD9DA-5FA5-4D72-AFE4-CB34D0B65A45}
 		{C26A6CEA-5DBF-4BDB-8D9B-5B2D0DC0AFD5} = {AB45C538-462C-47A5-8A07-A89A444DB3C7}
+		{54B33371-15BE-4105-8860-2907BFBE7040} = {67000869-05CF-49F6-B4EE-AB34EB12CD66}
 	EndGlobalSection
 EndGlobal
